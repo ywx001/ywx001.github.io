@@ -3,9 +3,16 @@ html {
   font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
   background-color: #00539f;
 }
-h1 {
+h1:first-child {
   margin: 0;
   padding: 20px 0;
+  color: #00539f;
+  text-shadow: 1px 1px 1px green;
+}
+
+strong {
+  /* margin: 0;
+  padding: 20px 0; */
   color: #00539f;
   text-shadow: 1px 1px 11px green;
 }
@@ -17,6 +24,7 @@ li {
   letter-spacing: 1px;
 }
 body {
+  height: 100%;
   width: 600px;
   margin: 0 auto;
   background-color: #ff9500;
@@ -26,7 +34,12 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 600px;
+}
+
+.special {
+  color: rgb(30, 0, 255);
+  font-weight: bold;
 }
 
